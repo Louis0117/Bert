@@ -11,4 +11,14 @@ Simply put, remove the NSP
 Bert: character-level vocab 30k  
 RoBERTa: byte BPE 50K (use byte, Use bytes instead of unicode characters)
 
-RoBERTa.base   #params
+&nbsp;&nbsp;&nbsp;&nbsp; 
+<table>
+  <tr>
+    <td>BERT #params</td>
+    <td>RoBERTa #params</td>
+  </tr>
+  <tr>
+    <td>125M</td>
+    <td>355M</td>
+  </tr>
+</table>   
