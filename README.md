@@ -10,3 +10,5 @@ Simply put, remove the NSP
 4. Text encoding  
 Bert: character-level vocab 30k  
 RoBERTa: byte BPE 50K (use byte, Use bytes instead of unicode characters)
+
+RoBERTa.base   #params
