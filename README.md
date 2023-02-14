@@ -15,8 +15,8 @@ RoBERTa: byte BPE 50K (use byte, Use bytes instead of unicode characters)
 &nbsp;&nbsp;&nbsp;&nbsp; 
 <table>
   <tr>
-    <td>BERT #params</td>
-    <td>RoBERTa #params</td>
+    <td>Base #params</td>
+    <td>Large #params</td>
   </tr>
   <tr>
     <td>125M</td>
