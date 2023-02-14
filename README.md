@@ -1,4 +1,107 @@
 # Bert
+### Experiment 1
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+Bert-Base
+* hyperparameter  
+iter = 4000   
+batch size = 8    
+learning rate = 1e-5  
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 73.2% </td>
+    <td> 68% </td>
+  </tr>
+</table>   
+
+### Experiment 2
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+Bert-Base
+* hyperparameter  
+iter = 4000   
+batch size = 32    
+learning rate = 2e-5  
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 71.3% </td>
+    <td> 63.5% </td>
+  </tr>
+</table>   
+
+### Experiment 3
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+Bert-Large
+* hyperparameter  
+iter = 4000   
+batch size = 32    
+learning rate = 2e-5  
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 74.16% </td>
+    <td> 68.25% </td>
+  </tr>
+</table>   
+
+### Experiment 4
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+Bert-Large
+* hyperparameter  
+iter = 4000   
+batch size = 8   
+learning rate = 1e-5  
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 69.9% </td>
+    <td> 66.5% </td>
+  </tr>
+</table>   
+
+
+
+
 # RoBERTa
 ------
 ### introduction  
