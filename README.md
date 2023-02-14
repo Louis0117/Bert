@@ -34,7 +34,7 @@ AXS_data_3class_v10.csv
 * model  
 RoBERTa-Base
 * hyperparameter  
-iter = 1750  
+iter = 1750   
 batch size = 8    
 learning rate = 1e-5  
 Max_len = 256
@@ -62,7 +62,7 @@ AXS_data_3class_v10.csv
 * model  
 RoBERTa-Base
 * hyperparameter  
-iter = 4000
+iter = 4000  
 batch size = 8   
 learning rate = 1e-5  
 Max_len = 256
@@ -90,7 +90,7 @@ AXS_data_3class_v10.csv
 * model  
 RoBERTa-large
 * hyperparameter  
-iter = 1750
+iter = 1750  
 batch size = 8  
 learning rate = 1e-5  
 Max_len = 256
