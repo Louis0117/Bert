@@ -136,9 +136,9 @@ Sentiment analysis, classify dataset text as positive, negitive, neutral
 AXS_data_3class_v10.csv
 * model  
 RoBERTa-Base
-* hyperparameter  
-iter = 1750   
-batch size = 8    
+* hyperparameter (best) 
+iter = 4000   
+batch size = 32    
 learning rate = 1e-5  
 Max_len = 256
 * result  
@@ -150,8 +150,8 @@ F1-score on the test set
     <td>macro-F1</td>
   </tr>
   <tr>
-    <td> 76.5% </td>
-    <td> 72% </td>
+    <td> 77.15% </td>
+    <td> 73.8% </td>
   </tr>
 </table>   
 
